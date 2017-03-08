@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_0"
+            android:checked="true"
+            android:title="Equipe">
+            <menu>
+                <item
+                    android:id="@+id/nav_cuidador"
+                    android:icon="@android:drawable/ic_menu_share"
+                    android:title="Cuidador" />
+                <item
+                    android:id="@+id/nav_familiar"
+                    android:icon="@android:drawable/ic_menu_share"
+                    android:title="Familiar" />
+                <item
+                    android:id="@+id/nav_medico"
+                    android:icon="@android:drawable/ic_menu_share"
+                    android:title="Médico" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_frequencia"
+            android:icon="@drawable/ic_frequencia"
+            android:title="Frequência Cardíaca" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_manutencao"
+            android:title="Manutenação Perfil" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="">
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/ic_logout"
+                android:title="Sair" />
+
+        </item>
+    </group>
+
+
+</menu>
